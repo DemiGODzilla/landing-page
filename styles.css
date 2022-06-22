@@ -40,9 +40,6 @@ a {
 
 }
 
-
-
-
 .section-1 h1 {
     font-size: 48px;
     font-weight: 900;
@@ -173,16 +170,14 @@ button:hover {
     color: #1f2937;
     gap: 10px;
     max-width: 1200px;
-
-    
 }
 
 .testimonial :nth-child(1) {
     font-size: 36px;
     font-weight: 100;
     font-style: italic;
-    
 }
+
 .testimonial :nth-child(2) {
     font-size: 24px;
     font-weight: 700;
@@ -197,8 +192,6 @@ button:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    
-    
 }
 
 .call {
@@ -211,20 +204,17 @@ button:hover {
     gap: 50px;
     width: 75%;
     max-width: 1000px;
-
 }
 
 .call-left :nth-child(1) {
-color: #f9faf8;
-font-size: 24px;
+    color: #f9faf8;
+    font-size: 24px;
 }
 
 .call-left :nth-child(2) {
     color: #e5e7eb;
     font-size: 16px;
     }
-
-
 
 .call button {
     border: #f9faf8 solid 2px;
