@@ -128,6 +128,7 @@ button:hover {
     flex-wrap: wrap;
     justify-content: center;
     gap: 50px;
+    margin: 50px;
    
 }
 
@@ -176,4 +177,50 @@ button:hover {
     font-weight: 700;
     align-self: flex-end;
     padding-right: 50px;
+}
+
+/* SECTION 4 */
+
+.section-4 {
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.call {
+    padding: 50px;
+    margin: 50px;
+    background-color: #3882f6;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    width: 75%;
+    max-width: 1100px;
+
+}
+
+.call-left :nth-child(1) {
+color: #f9faf8;
+font-size: 24px;
+}
+
+.call-left :nth-child(2) {
+    color: #e5e7eb;
+    font-size: 16px;
+    }
+
+
+
+.call button {
+    border: #f9faf8 solid 2px;
+}
+
+@media (max-width: 800px) {
+    .call {
+        flex-direction: column;
+    }
 }
