@@ -219,8 +219,20 @@ font-size: 24px;
     border: #f9faf8 solid 2px;
 }
 
+/*Changes call to action flex direction on small screen*/
 @media (max-width: 800px) {
     .call {
         flex-direction: column;
     }
+}
+
+/* FOOTER */
+
+.footer {
+    background-color:#1f2937;
+    color: #f9faf8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
 }
